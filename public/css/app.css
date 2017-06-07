@@ -1,0 +1,83 @@
+#main{
+	width: 800px;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 50px;
+	box-shadow: 0px 0px 2px #c4c4c4;
+}
+#chatTabs{
+	border-radius: 5px 5px 0px 0px;
+	background: #ededed;
+}
+.addTab{
+	display: inline-block;
+	padding-top: 6px;
+	padding-bottom: 9px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: #2fa5ef;
+	color: white;
+	margin-left: 10px;
+	font-size: 20px;
+}
+#addTabModalClose{
+	content: 'x';
+	position: absolute;
+	top: -0px;
+	left: 380px;
+}
+#addTabModal, #addNameModal{
+	width: 400px;
+	background: white;
+	margin: 0 auto;
+	top: -500px;
+	float: center;
+	position: relative;
+	padding: 20px;
+	box-shadow: 0px 0px 5px lightgray;
+	border-radius: 10px;
+}
+.hiddenModal{
+	display: none;
+}
+#addTabModalInput, #addNameModalInput{
+	margin-top: 10px;
+}
+.tab{
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+	min-width: 80px;
+	background: #c4c4c4;
+	padding-right: 20px;
+	transition-duration: 0.5s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+#tabActive{
+	background: #3a96ff;
+	color: white;
+}
+#chatDisplay{
+	padding: 10px 10px 20px 10px;
+	height: 500px;
+	overflow-y:scroll;
+	padding-bottom: 10px;
+}
+.message{
+	padding: 5px 10px 5px 10px;
+	background: #42b4ed;
+	border-radius: 20px;
+	float: left;
+	clear: both;
+	margin-top: 10px;
+	color: white;
+	transition-duration: 0.3s;
+}
+.mine{
+	background: #c4c4c4;
+	float: right;
+	color: black;
+}

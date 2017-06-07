@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Rooms</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+   
+      <div id="main" class="animatedMain zoomIn">
+        <div id="chatTabs"></div>
+        <div id="chatDisplay"></div>
+        <div id="chatInput">
+          <input type="text" name="input" class="input" id="0">
+        </div>
+      </div>
+      <div id="addTabModal" class="hiddenModal">
+      <div id="addTabModalClose">&times</div>
+        Enter tab`s name: <input type="text" id="addTabModalInput">
+      </div>
+      <div id="addNameModal" class="animatedMain zoomIn">
+        Enter your name: <input type="text" id="addNameModalInput">
+      </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/socket.io.js"></script>
+    <script src="js/App.class.js"></script>
+    <script src="js/ChatTab.class.js"></script>
+    <script src="js/eventlisteners.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/socket.js"></script>
+  </body>
+</html>
